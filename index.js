@@ -23,7 +23,7 @@ app.get('/test', function (req, res) {
 })
 
 app.get('/test2', function (req, res) {
-    console.log("recieving request...")
+    console.log("receiving request...")
     console.log("headers: ", JSON.stringify(req.headers))
     res.end()
 })
